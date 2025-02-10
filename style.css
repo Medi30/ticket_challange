@@ -1,0 +1,260 @@
+
+@font-face {
+    font-family: 'daafont';
+    src: url(/assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+@media (min-width: 375px){
+body{
+    background-position: 10% -20%,80%,top right,bottom left;
+    background-attachment: fixed;
+    background-size: auto,auto,auto,auto,cover,cover;
+    background-repeat: no-repeat;
+    background-image:url(/assets/images/pattern-circle.svg),
+                    url(/assets/images/pattern-circle.svg),
+                     url(/assets/images/pattern-squiggly-line-top.svg),
+                     url(/assets/images/pattern-squiggly-line-bottom-desktop.svg),
+                     url(/assets/images/pattern-lines.svg), 
+                     url(/assets/images/background-desktop.png);
+    }
+}
+
+@media (max-width: 375px){
+    body{
+        background-position: -10% -8%,120% 60%,top right,bottom left;
+        background-attachment: fixed;
+        background-size: 40%,40%,40%,90%,cover,cover;
+        background-repeat: no-repeat;
+        background-image:url(/assets/images/pattern-circle.svg),
+                        url(/assets/images/pattern-circle.svg),
+                         url(/assets/images/pattern-squiggly-line-top.svg),
+                         url(/assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg),
+                         url(/assets/images/pattern-lines.svg), 
+                         url(/assets/images/background-mobile.png);
+    }
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(252, 6%, 83%);
+    font-family: 'daafont';
+}
+
+.header{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.toplogo{
+    width: 30%;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+.secondtext{
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+
+.hide{
+    display: none;
+}
+
+@media (max-width: 375px){
+    #inputcont{
+        width: 300px;
+    }
+    }
+    
+@media (min-width: 375px){
+    #inputcont{
+        width: 400px;
+    }
+}
+
+
+    
+#dragdrop{
+    border: 2px dashed #ccc;
+    border-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.uploadtextDefault{
+    font-size: small;
+    font-weight: 200;
+}
+
+.uploadtextsymbol{
+    filter: invert(21%) sepia(82%) saturate(7468%) hue-rotate(357deg) brightness(98%) contrast(114%);
+}
+
+
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px #2a223d inset !important;
+    -webkit-text-fill-color: white;
+}
+
+.uplogoDefault{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.upImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-color: rgba(255, 255, 255, 0.4) !important;
+    color: white !important;
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: 500 !important;
+    border: none !important;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+::placeholder{
+    color: white !important;
+    opacity: 0.4 !important;
+}
+
+
+#generateButton{
+    width: 400px;
+    margin-top: 10px;
+    background-color: hsl(7, 88%, 67%);
+    color: black;
+    font-weight: bolder !important;
+    border: none;
+}
+
+.generatehover{
+    background-color: hsl(7, 71%, 60%) !important;
+}
+
+@media (max-width: 375px){
+    #generateButton{
+        width: 300px;
+    }
+}
+
+.highlight{
+    outline: double rgba(255, 255, 255, 0.7) !important
+
+}
+
+.hoverover{
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.errortext{
+    font-size: small;
+    font-weight: 100;
+    color: red;
+    margin-bottom: -15px;
+}
+
+.removebtn{
+    text-decoration: underline !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/*---------------------------------------------------------*/
+
+#ticketcont{
+   display: flex;
+   justify-content: center;
+}
+
+.avatar{
+    border-radius: 10px;
+    position: relative;
+    top: 220px;
+    left: -480px
+}
+
+@media (max-width: 375px){
+    #ticketSVG{
+        width: 310px;
+    }
+    #ticketDirectSVG{
+        width: 310px;
+    }
+    #ticketLogo{
+        x: 25px;
+        y: 100px;
+    }
+    #ticketText{
+        transform: translate(0px,30px);
+        font-size: 8px;
+    }
+    #ticketAvatar{
+        width: 50px;
+        y: 190px;
+        clip-path: circle(50%);
+    }
+    #ticketName{
+        font-size: 20px;
+        transform: translate(-40px,-20px);
+    }
+    #ticketGit{
+        font-size: 13px;
+        transform: translate(-55px,-40px);
+    }
+    #ticketGitLogo{
+        x: 75px;
+        y: 225px;
+    }
+    .header{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+#ticketNameGradient{
+    background: -webkit-linear-gradient(0deg,hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#ticketEmail{
+    color: hsl(7, 71%, 60%);
+}
+
+#ticketHeader{
+    font-weight: 900;
+}
+
+#ticketH2{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 25px;
+}
+        
