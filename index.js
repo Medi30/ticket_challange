@@ -98,14 +98,14 @@ function uploadIMG (event) {
         document.querySelector("#dragdropText").classList.add("hide")
         document.querySelector("#buttoncont").classList.remove("hide")
         document.querySelector("#dragdrop").removeEventListener("click", uploadSelect)
-        errortext.innerHTML = '<img id="upsymbol" src="/assets/images/icon-info.svg"> Upload your photo (JPG or PNG, max size: 500KB)';
+        errortext.innerHTML = '<img id="upsymbol" src="assets/images/icon-info.svg"> Upload your photo (JPG or PNG, max size: 500KB)';
         errortext.style.color = "white"
         document.querySelector("#upsymbol").classList.remove("uploadtextsymbol")
         validtext["img"] = true
     }else if (file.size > 500000){
         uploadlogo.classList.add("uplogoDefault")
         uploadlogo.src = "assets/images/icon-upload.svg"
-        errortext.innerHTML = '<img id="upsymbol" src="/assets/images/icon-info.svg"> File too large. Please upload under 500KB';
+        errortext.innerHTML = '<img id="upsymbol" src="assets/images/icon-info.svg"> File too large. Please upload under 500KB';
         errortext.style.color = "red"
         document.querySelector("#upsymbol").classList.add("uploadtextsymbol")
         document.querySelector("#dragdropText").classList.remove("hide")

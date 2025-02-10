@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'daafont';
-    src: url(/assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+    src: url(assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
 }
 
 @media (min-width: 375px){
@@ -10,12 +10,12 @@ body{
     background-attachment: fixed;
     background-size: auto,auto,auto,auto,cover,cover;
     background-repeat: no-repeat;
-    background-image:url(/assets/images/pattern-circle.svg),
-                    url(/assets/images/pattern-circle.svg),
-                     url(/assets/images/pattern-squiggly-line-top.svg),
-                     url(/assets/images/pattern-squiggly-line-bottom-desktop.svg),
-                     url(/assets/images/pattern-lines.svg), 
-                     url(/assets/images/background-desktop.png);
+    background-image:url(assets/images/pattern-circle.svg),
+                    url(assets/images/pattern-circle.svg),
+                     url(assets/images/pattern-squiggly-line-top.svg),
+                     url(assets/images/pattern-squiggly-line-bottom-desktop.svg),
+                     url(assets/images/pattern-lines.svg), 
+                     url(assets/images/background-desktop.png);
     }
 }
 
@@ -25,12 +25,12 @@ body{
         background-attachment: fixed;
         background-size: 40%,40%,40%,90%,cover,cover;
         background-repeat: no-repeat;
-        background-image:url(/assets/images/pattern-circle.svg),
-                        url(/assets/images/pattern-circle.svg),
-                         url(/assets/images/pattern-squiggly-line-top.svg),
-                         url(/assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg),
-                         url(/assets/images/pattern-lines.svg), 
-                         url(/assets/images/background-mobile.png);
+        background-image:url(assets/images/pattern-circle.svg),
+                        url(assets/images/pattern-circle.svg),
+                         url(assets/images/pattern-squiggly-line-top.svg),
+                         url(assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg),
+                         url(assets/images/pattern-lines.svg), 
+                         url(assets/images/background-mobile.png);
     }
 }
 
