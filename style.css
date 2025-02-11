@@ -10,12 +10,12 @@ body{
     background-attachment: fixed;
     background-size: auto,auto,auto,auto,cover,cover;
     background-repeat: no-repeat;
-    background-image:url(/.assets/images/pattern-circle.svg),
-                    url(/.assets/images/pattern-circle.svg),
-                     url(/.assets/images/pattern-squiggly-line-top.svg),
+    background-image:url(./assets/images/pattern-circle.svg),
+                    url(./assets/images/pattern-circle.svg),
+                     url(./assets/images/pattern-squiggly-line-top.svg),
                      url(./assets/images/pattern-squiggly-line-bottom-desktop.svg),
                      url(./assets/images/pattern-lines.svg), 
-                     url(./assets/images/background-desktop.pg);
+                     url(./assets/images/background-desktop.png);
     }
 }
 
